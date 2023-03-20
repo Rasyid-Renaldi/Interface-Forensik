@@ -1,15 +1,24 @@
-from PySide6.QtCore import (QCoreApplication, QDate, QDateTime, QLocale,
-                            QMetaObject, QObject, QPoint, QRect,
-                            QSize, QTime, QUrl, Qt)
-from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
-                           QFont, QFontDatabase, QGradient, QIcon,
-                           QImage, QKeySequence, QLinearGradient, QPainter,
-                           QPalette, QPixmap, QRadialGradient, QTransform)
-from PySide6.QtWidgets import (QApplication, QCheckBox, QComboBox, QFontComboBox,
-                               QGroupBox, QLabel, QLineEdit, QListView,
-                               QProgressBar, QPushButton, QRadioButton, QSizePolicy,
-                               QWidget)
+# -*- coding: utf-8 -*-
 
+################################################################################
+## Form generated from reading UI file 'form.ui'
+##
+## Created by: Qt User Interface Compiler version 6.4.2
+##
+## WARNING! All changes made in this file will be lost when recompiling UI file!
+################################################################################
+
+from PySide6.QtCore import (QCoreApplication, QDate, QDateTime, QLocale,
+    QMetaObject, QObject, QPoint, QRect,
+    QSize, QTime, QUrl, Qt)
+from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
+    QFont, QFontDatabase, QGradient, QIcon,
+    QImage, QKeySequence, QLinearGradient, QPainter,
+    QPalette, QPixmap, QRadialGradient, QTransform)
+from PySide6.QtWidgets import (QApplication, QCheckBox, QComboBox, QFontComboBox,
+    QGroupBox, QLabel, QLineEdit, QListView,
+    QProgressBar, QPushButton, QRadioButton, QSizePolicy,
+    QWidget)
 
 class Ui_Widget(object):
     def setupUi(self, Widget):
@@ -24,7 +33,7 @@ class Ui_Widget(object):
         self.label_2.setGeometry(QRect(70, 20, 63, 20))
         self.groupBox = QGroupBox(Widget)
         self.groupBox.setObjectName(u"groupBox")
-        self.groupBox.setGeometry(QRect(210, 50, 581, 221))
+        self.groupBox.setGeometry(QRect(180, 130, 581, 221))
         self.groupBox.setMouseTracking(False)
         self.groupBox.setFocusPolicy(Qt.StrongFocus)
         self.groupBox.setToolTipDuration(0)
@@ -68,70 +77,72 @@ class Ui_Widget(object):
         self.OutputLocation.setFrame(True)
         font = QFont()
         font.setFamilies([u"Location"])
-        font.setKerning(True)
         self.OutputLocation.setCurrentFont(font)
         self.label_7 = QLabel(Widget)
         self.label_7.setObjectName(u"label_7")
-        self.label_7.setGeometry(QRect(220, 300, 151, 31))
+        self.label_7.setGeometry(QRect(190, 380, 151, 31))
         self.progressBar = QProgressBar(Widget)
         self.progressBar.setObjectName(u"progressBar")
-        self.progressBar.setGeometry(QRect(390, 300, 411, 41))
+        self.progressBar.setGeometry(QRect(350, 370, 411, 41))
         self.progressBar.setValue(1)
         self.progressBar.setOrientation(Qt.Horizontal)
         self.progressBar.setInvertedAppearance(False)
         self.progressBar.setTextDirection(QProgressBar.BottomToTop)
         self.groupBox_2 = QGroupBox(Widget)
         self.groupBox_2.setObjectName(u"groupBox_2")
-        self.groupBox_2.setGeometry(QRect(210, 360, 581, 211))
+        self.groupBox_2.setGeometry(QRect(190, 430, 391, 201))
         self.listView = QListView(self.groupBox_2)
         self.listView.setObjectName(u"listView")
-        self.listView.setGeometry(QRect(10, 30, 561, 171))
+        self.listView.setGeometry(QRect(10, 30, 371, 161))
         self.pushButton = QPushButton(Widget)
         self.pushButton.setObjectName(u"pushButton")
-        self.pushButton.setGeometry(QRect(730, 620, 83, 29))
+        self.pushButton.setGeometry(QRect(760, 630, 83, 29))
         self.pushButton_2 = QPushButton(Widget)
         self.pushButton_2.setObjectName(u"pushButton_2")
-        self.pushButton_2.setGeometry(QRect(840, 620, 83, 29))
+        self.pushButton_2.setGeometry(QRect(870, 630, 83, 29))
+        self.comboBox = QComboBox(Widget)
+        self.comboBox.setObjectName(u"comboBox")
+        self.comboBox.setGeometry(QRect(180, 70, 381, 41))
+        self.pushButton_3 = QPushButton(Widget)
+        self.pushButton_3.setObjectName(u"pushButton_3")
+        self.pushButton_3.setGeometry(QRect(580, 70, 83, 29))
+        self.pushButton_4 = QPushButton(Widget)
+        self.pushButton_4.setObjectName(u"pushButton_4")
+        self.pushButton_4.setGeometry(QRect(670, 50, 83, 29))
+        self.pushButton_5 = QPushButton(Widget)
+        self.pushButton_5.setObjectName(u"pushButton_5")
+        self.pushButton_5.setGeometry(QRect(670, 80, 83, 31))
+        self.label_8 = QLabel(Widget)
+        self.label_8.setObjectName(u"label_8")
+        self.label_8.setGeometry(QRect(180, 40, 101, 20))
 
         self.retranslateUi(Widget)
 
         QMetaObject.connectSlotsByName(Widget)
-    # !setupUi
+    # setupUi
 
     def retranslateUi(self, Widget):
-        Widget.setWindowTitle(
-            QCoreApplication.translate("Widget", u"Widget", None))
+        Widget.setWindowTitle(QCoreApplication.translate("Widget", u"Widget", None))
         self.label.setText(QCoreApplication.translate("Widget", u"File", None))
-        self.label_2.setText(
-            QCoreApplication.translate("Widget", u"About", None))
-        self.groupBox.setTitle(QCoreApplication.translate(
-            "Widget", u"Destination File", None))
-        self.label_3.setText(QCoreApplication.translate(
-            "Widget", u"File Name     :", None))
-        self.label_4.setText(QCoreApplication.translate(
-            "Widget", u"Image Type   :", None))
-        self.radioButton.setText(
-            QCoreApplication.translate("Widget", u"Raw dd", None))
-        self.radioButton_2.setText(
-            QCoreApplication.translate("Widget", u"EnCase E01", None))
-        self.label_5.setText(QCoreApplication.translate(
-            "Widget", u"Storage      :", None))
-        self.checkBox.setText(QCoreApplication.translate(
-            "Widget", u"Internal", None))
-        self.checkBox_2.setText(
-            QCoreApplication.translate("Widget", u"Eksternal", None))
-        self.label_6.setText(QCoreApplication.translate(
-            "Widget", u"Output Location    :", None))
-        self.OutputLocation.setCurrentText(
-            QCoreApplication.translate("Widget", u"Location", None))
-        self.label_7.setText(QCoreApplication.translate(
-            "Widget", u"Acquisition Progress   :", None))
-        self.progressBar.setFormat(
-            QCoreApplication.translate("Widget", u"%p%", None))
-        self.groupBox_2.setTitle(
-            QCoreApplication.translate("Widget", u"Details", None))
-        self.pushButton.setText(
-            QCoreApplication.translate("Widget", u"Back", None))
-        self.pushButton_2.setText(
-            QCoreApplication.translate("Widget", u"Extract", None))
-    # !retranslateUi
+        self.label_2.setText(QCoreApplication.translate("Widget", u"About", None))
+        self.groupBox.setTitle(QCoreApplication.translate("Widget", u"Destination File", None))
+        self.label_3.setText(QCoreApplication.translate("Widget", u"File Name     :", None))
+        self.label_4.setText(QCoreApplication.translate("Widget", u"Image Type   :", None))
+        self.radioButton.setText(QCoreApplication.translate("Widget", u"Raw dd", None))
+        self.radioButton_2.setText(QCoreApplication.translate("Widget", u"EnCase E01", None))
+        self.label_5.setText(QCoreApplication.translate("Widget", u"Storage      :", None))
+        self.checkBox.setText(QCoreApplication.translate("Widget", u"Internal", None))
+        self.checkBox_2.setText(QCoreApplication.translate("Widget", u"Eksternal", None))
+        self.label_6.setText(QCoreApplication.translate("Widget", u"Output Location    :", None))
+        self.OutputLocation.setCurrentText(QCoreApplication.translate("Widget", u"Location", None))
+        self.label_7.setText(QCoreApplication.translate("Widget", u"Acquisition Progress   :", None))
+        self.progressBar.setFormat(QCoreApplication.translate("Widget", u"%p%", None))
+        self.groupBox_2.setTitle(QCoreApplication.translate("Widget", u"Details", None))
+        self.pushButton.setText(QCoreApplication.translate("Widget", u"Back", None))
+        self.pushButton_2.setText(QCoreApplication.translate("Widget", u"Extract", None))
+        self.pushButton_3.setText(QCoreApplication.translate("Widget", u"Scan", None))
+        self.pushButton_4.setText(QCoreApplication.translate("Widget", u"Cek", None))
+        self.pushButton_5.setText(QCoreApplication.translate("Widget", u"Connect", None))
+        self.label_8.setText(QCoreApplication.translate("Widget", u"Detect Device", None))
+    # retranslateUi
+
