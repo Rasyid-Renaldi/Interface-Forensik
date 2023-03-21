@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 9.0.1, 2023-02-28T05:57:18. -->
+<!-- Written by QtCreator 9.0.1, 2023-03-20T16:07:40. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -144,12 +144,10 @@
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">App Forensics2.py</value>
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">PythonEditor.RunConfiguration.D:/Skripsi/Test_Interface2/App Forensics2.py</value>
     <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">D:/Skripsi/Test_Interface2/App Forensics2.py</value>
-    <value type="QString" key="PythonEditor.RunConfiguation.Script">D:\Skripsi\Test_Interface2\App Forensics2.py</value>
     <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
     <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
-    <value type="QString" key="RunConfiguration.WorkingDirectory.default">D:/Skripsi/Test_Interface2</value>
    </valuemap>
    <value type="qlonglong" key="ProjectExplorer.Target.RunConfigurationCount">1</value>
   </valuemap>
