@@ -14,5 +14,6 @@ class Widget(QWidget):
 if __name__ == "__main__":
     app = QApplication(sys.argv)
     widget = Widget()
+    widget.setWindowTitle("Aplikasi Forensik Python")
     widget.show()
     sys.exit(app.exec())
